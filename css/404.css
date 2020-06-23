@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?mx4fpy');
+  src: url('fonts/icomoon.eot?mx4fpy#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?mx4fpy') format('truetype'), url('fonts/icomoon.woff?mx4fpy') format('woff'), url('fonts/icomoon.svg?mx4fpy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.OOPS {
+  position: relative;
+  transform: translateY(90%);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 13px;
+  align-content: center;
+  text-align: center;
+}
+
+#Oops {
+  font-size: 30px;
+  font-weight: 120;
+  line-height: 20px;
+  position: relative;
+}
+
+.down {
+  position: relative;
+  top: 50px;
+}
+
+.home {
+  position: relative;
+  top: 15px;
+  left: 45%;
+}
+
+.HOME {
+  font-weight: 500;
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 13px;
+  align-content: center;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.or {
+  position: relative;
+  top: 20px;
+}
+
+#buscar {
+  position: relative;
+  left: 42%;
+  top: 36px;
+  bottom: 20px;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+blockquote {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+#fondofondo {
+  background: url("../assets/error/IMG_2231.PNG");
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  right: 3.5%;
+}
+
+#fondo {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  background: url("../assets/error/IMG_2315.PNG");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  left: 6%;
+  overflow: hidden;
+  top: 60px;
+  clip-path: ellipse(160px 250px at 340px)
+}
+
+@keyframes hojainferior {
+  0% {
+    transform: rotate(0) translateY(30px);
+  }
+  40%, 60% {
+    transform: rotate(-45deg) translateY(100px)
+  }
+  85%, 100% {
+    transform: rotate(0) translateY(30px);
+  }
+}
+
+@keyframes hojasuperior {
+  0% {
+    transform: rotate(-10deg) translateY(30px);
+  }
+  40%, 60% {
+    transform: rotate(35deg) translateY(90px);
+  }
+  85%, 100% {
+    transform: rotate(-10deg) translateY(30px);
+  }
+}
+
+@keyframes jane {
+  0% {
+    transform: rotate(0) translateX(0);
+  }
+  40%, 60% {
+    transform: rotate(10deg) translateX(10px);
+  }
+  100% {
+    transform: rotate(0) translateX(0);
+  }
+}
+
+@keyframes mono {
+  0% {
+    transform: translateY(0);
+  }
+  40%, 60% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.janecharacter {
+  background: url("../assets/error/IMG_2317.PNG");
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  top: 10%;
+  left: -10.5%;
+  animation-name: jane;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.monkey {
+  background: url("../assets/error/IMG_2318.PNG");
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  top: -8%;
+  left: -23.5%;
+  animation-name: mono;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.hojamomono {
+  position: absolute;
+  width: 1600px;
+  height: 700px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  bottom: 1px;
+  left: -61%;
+}
+
+.hojaarriba {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  left: -11.5%;
+}
+
+.hoojaabajo {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  top: 3%;
+  left: -12.5%;
+}
+
+.hinferior {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  top: 10%;
+  left: -9.5%;
+  animation-name: hojainferior;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.hsuperior {
+  position: absolute;
+  width: 960px;
+  height: 600px;
+  margin-right: 0 auto;
+  background-size: cover;
+  overflow: hidden;
+  top: 5%;
+  left: -8%;
+  animation-name: hojasuperior;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
