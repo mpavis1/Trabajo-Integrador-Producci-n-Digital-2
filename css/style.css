@@ -105,6 +105,10 @@ html {
 .contacto-text {color: rgba(139,190,56,1.00);
       }
 
+.center-txt-nosotros{ letter-spacing: 0.5px}
+
+
+
 /* Medium */
 
 @media (min-width: 768px) {
