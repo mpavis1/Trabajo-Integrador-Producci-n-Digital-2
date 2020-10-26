@@ -102,6 +102,9 @@ html {
   background-color: rgba(1, 102, 120, 1.00);
 }
 
+.contacto-text {color: rgba(139,190,56,1.00);
+      }
+
 /* Medium */
 
 @media (min-width: 768px) {
